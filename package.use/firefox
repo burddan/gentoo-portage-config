@@ -1,0 +1,46 @@
+#www-client/firefox jumbo-build openh264 system-av1 system-icu system-jpeg system-libvpx system-png system-webp hwaccel system-harfbuzz system-libevent
+www-client/firefox jumbo-build openh264  hwaccel
+media-video/libva-utils vainfo
+
+
+
+# required by www-client/firefox-140.6.0::gentoo[system-libvpx]
+# required by firefox (argument)
+>=media-libs/libvpx-1.15.2 postproc
+# required by www-client/firefox-140.6.0::gentoo[system-png]
+# required by firefox (argument)
+>=media-libs/libpng-1.6.51 apng
+# required by www-client/firefox-140.6.0::gentoo[openh264]
+# required by firefox (argument)
+>=media-libs/openh264-2.6.0 plugin
+
+
+
+# required by gnome-base/librsvg-2.60.0::gentoo
+# required by x11-themes/adwaita-icon-theme-legacy-46.2::gentoo
+# required by x11-themes/adwaita-icon-theme-48.1::gentoo
+# required by virtual/freedesktop-icon-theme-0-r4::gentoo
+# required by www-client/firefox-140.6.0::gentoo
+# required by firefox (argument)
+>=x11-libs/cairo-1.18.4-r1 glib
+# required by x11-libs/pango-1.57.0::gentoo
+# required by gnome-base/librsvg-2.60.0::gentoo
+# required by x11-themes/adwaita-icon-theme-legacy-46.2::gentoo
+# required by x11-themes/adwaita-icon-theme-48.1::gentoo
+# required by virtual/freedesktop-icon-theme-0-r4::gentoo
+# required by www-client/firefox-140.6.0::gentoo
+# required by firefox (argument)
+>=media-libs/harfbuzz-12.2.0 glib
+# required by x11-libs/pango-1.57.0::gentoo
+# required by gnome-base/librsvg-2.60.0::gentoo
+# required by x11-themes/adwaita-icon-theme-legacy-46.2::gentoo
+# required by x11-themes/adwaita-icon-theme-48.1::gentoo
+# required by virtual/freedesktop-icon-theme-0-r4::gentoo
+# required by www-client/firefox-140.6.0::gentoo
+# required by firefox (argument)
+>=media-libs/freetype-2.14.1-r1 harfbuzz
+# required by www-client/firefox-140.6.0::gentoo
+# required by firefox (argument)
+>=dev-lang/python-3.14.0_p1 sqlite
+
+

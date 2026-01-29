@@ -1,0 +1,5 @@
+COMMON_FLAGS="-O2 -pipe -march=ivybridge"
+CFLAGS="-fno-lto"
+CXXFLAGS="-fno-lto"
+LDFLAGS="-fno-lto"
+

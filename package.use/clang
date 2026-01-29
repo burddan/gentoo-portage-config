@@ -1,0 +1,48 @@
+# required by llvm-runtimes/libcxx-20.1.8::gentoo
+# required by llvm-core/clang-common-20.1.8-r1::gentoo
+# required by llvm-runtimes/clang-runtime-20.1.8-r1::gentoo
+# required by llvm-core/clang-20.1.8::gentoo
+# required by llvm-core/clang-toolchain-symlinks-20::gentoo
+>=llvm-runtimes/libcxxabi-20.1.8 static-libs
+# required by sys-apps/systemd-utils-255.18::gentoo[python_single_target_python3_13]
+# required by virtual/tmpfiles-0-r5::gentoo[-systemd]
+# required by app-portage/gentoolkit-0.6.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/jinja2-3.1.6 python_targets_python3_13
+# required by sys-apps/systemd-utils-255.18::gentoo[python_single_target_python3_13]
+# required by virtual/tmpfiles-0-r5::gentoo[-systemd]
+# required by app-portage/gentoolkit-0.6.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/lxml-6.0.2 python_targets_python3_13
+# required by dev-python/lxml-6.0.2::gentoo
+# required by sys-apps/systemd-utils-255.18::gentoo[python_single_target_python3_13]
+# required by virtual/tmpfiles-0-r5::gentoo[-systemd]
+# required by app-portage/gentoolkit-0.6.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/cython-3.1.6 python_targets_python3_13
+# required by dev-python/lxml-6.0.2::gentoo
+# required by sys-apps/systemd-utils-255.18::gentoo[python_single_target_python3_13]
+# required by virtual/tmpfiles-0-r5::gentoo[-systemd]
+# required by app-portage/gentoolkit-0.6.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/setuptools-80.9.0-r1 python_targets_python3_13
+# required by dev-python/jinja2-3.1.6::gentoo
+# required by sys-apps/systemd-utils-255.18::gentoo[python_single_target_python3_13]
+# required by virtual/tmpfiles-0-r5::gentoo[-systemd]
+# required by app-portage/gentoolkit-0.6.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/markupsafe-3.0.3 python_targets_python3_13
+# required by net-libs/gnutls-3.8.10-r1::gentoo
+# required by app-crypt/gnupg-2.5.14::gentoo[ssl]
+# required by app-alternatives/gpg-1-r2::gentoo[reference]
+# required by app-portage/getuto-1.15-r1::gentoo
+# required by sys-apps/portage-3.0.72::gentoo[-build]
+# required by virtual/package-manager-2::gentoo
+# required by @system
+# required by @world (argument)
+>=dev-libs/nettle-3.10.2 gmp

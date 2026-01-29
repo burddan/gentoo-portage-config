@@ -1,0 +1,2 @@
+dev-lang/rust system-llvm clippy parallel-compiler rustfmt rust-analyzer rust-src
+

@@ -1,0 +1,3 @@
+# /etc/portage/package.use/ngtcp2
+net-libs/ngtcp2 ssl gnutls -openssl
+

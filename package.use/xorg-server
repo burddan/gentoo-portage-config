@@ -1,0 +1,14 @@
+x11-base/xorg-server xorg X -minimal
+
+
+# required by media-libs/mesa-25.2.8::gentoo[-video_cards_nvk,-video_cards_asahi,-opencl,video_cards_intel,-vulkan]
+# required by x11-base/xorg-server-21.1.20::gentoo[-minimal]
+# required by @selected
+# required by @world (argument)
+>=llvm-core/libclc-21.1.8 spirv
+
+
+# required by x11-base/xorg-drivers-21.1-r2::gentoo[-input_devices_evdev,input_devices_libinput]
+# required by @selected
+# required by @world (argument)
+>=x11-base/xorg-server-21.1.20 udev

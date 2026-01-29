@@ -1,0 +1,12 @@
+# required by media-video/obs-studio-32.0.4::gentoo
+# required by media-video/obs-studio (argument)
+>=dev-qt/qtbase-6.10.1 xml widgets network gui
+# required by kde-frameworks/extra-cmake-modules-6.20.0::gentoo
+# required by media-video/obs-studio-32.0.4::gentoo
+# required by media-video/obs-studio (argument)
+>=app-arch/libarchive-3.8.3 bzip2 zstd
+# required by dev-qt/qtbase-6.10.1::gentoo
+# required by dev-qt/qtsvg-6.10.1::gentoo
+# required by media-video/obs-studio-32.0.4::gentoo
+# required by media-video/obs-studio (argument)
+>=dev-libs/libpcre2-10.47 pcre16

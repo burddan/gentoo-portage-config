@@ -1,0 +1,74 @@
+# mudanca para o python 3.13 para o 3.14, necessita pois 3.13 serve para fallback
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/cython-3.1.7::gentoo
+# required by dev-python/lxml-6.0.2::gentoo
+# required by app-eselect/eselect-repository-15::gentoo[python_single_target_python3_14]
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-collections-5.2.1 python_targets_python3_13
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/cython-3.1.7::gentoo
+# required by dev-python/lxml-6.0.2::gentoo
+# required by app-eselect/eselect-repository-15::gentoo[python_single_target_python3_14]
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-functools-4.3.0 python_targets_python3_13
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/cython-3.1.7::gentoo
+# required by dev-python/lxml-6.0.2::gentoo
+# required by app-eselect/eselect-repository-15::gentoo[python_single_target_python3_14]
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-text-4.0.0 python_targets_python3_13
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/cython-3.1.7::gentoo
+# required by dev-python/lxml-6.0.2::gentoo
+# required by app-eselect/eselect-repository-15::gentoo[python_single_target_python3_14]
+# required by @selected
+# required by @world (argument)
+>=dev-python/more-itertools-10.8.0 python_targets_python3_13
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/cython-3.1.7::gentoo
+# required by dev-python/lxml-6.0.2::gentoo
+# required by app-eselect/eselect-repository-15::gentoo[python_single_target_python3_14]
+# required by @selected
+# required by @world (argument)
+>=dev-python/packaging-25.0 python_targets_python3_13
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/cython-3.1.7::gentoo
+# required by dev-python/lxml-6.0.2::gentoo
+# required by app-eselect/eselect-repository-15::gentoo[python_single_target_python3_14]
+# required by @selected
+# required by @world (argument)
+>=dev-python/platformdirs-4.5.0 python_targets_python3_13
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/cython-3.1.7::gentoo
+# required by dev-python/lxml-6.0.2::gentoo
+# required by app-eselect/eselect-repository-15::gentoo[python_single_target_python3_14]
+# required by @selected
+# required by @world (argument)
+>=dev-python/wheel-0.45.1 python_targets_python3_13
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/cython-3.1.7::gentoo
+# required by dev-python/lxml-6.0.2::gentoo
+# required by app-eselect/eselect-repository-15::gentoo[python_single_target_python3_14]
+# required by @selected
+# required by @world (argument)
+>=dev-python/setuptools-scm-9.2.2 python_targets_python3_13
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/cython-3.1.7::gentoo
+# required by dev-python/lxml-6.0.2::gentoo
+# required by app-eselect/eselect-repository-15::gentoo[python_single_target_python3_14]
+# required by @selected
+# required by @world (argument)
+>=dev-python/trove-classifiers-2025.11.14.15 python_targets_python3_13
+# required by dev-python/jaraco-text-4.0.0::gentoo
+# required by dev-python/jaraco-collections-5.2.1::gentoo
+# required by dev-python/setuptools-80.9.0-r1::gentoo
+# required by dev-python/cython-3.1.7::gentoo
+# required by dev-python/lxml-6.0.2::gentoo
+# required by app-eselect/eselect-repository-15::gentoo[python_single_target_python3_14]
+# required by @selected
+# required by @world (argument)
+>=dev-python/jaraco-context-6.0.1-r1 python_targets_python3_13
+

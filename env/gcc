@@ -1,0 +1,11 @@
+COMMON_FLAGS="-march=ivybridge -O3 -pipe -fno-semantic-interposition -flto"
+CFLAGS="${COMMON_FLAGS}"
+CXXFLAGS="${COMMON_FLAGS}"
+LDFLAGS="-Wl,--as-needed"
+
+CC="gcc"
+CXX="g++"
+CPP="gcc -E"
+AR="ar"
+NM="nm"
+RANLIB="ranlib"

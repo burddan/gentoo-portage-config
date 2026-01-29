@@ -1,0 +1,10 @@
+media-video/pipewire sound-server
+
+media-libs/libcanberra alsa
+
+# required by dev-libs/glib-2.84.4::gentoo
+# required by media-video/wireplumber-0.5.12::gentoo
+# required by media-video/pipewire-1.4.9-r1::gentoo
+# required by pipewire (argument)
+>=dev-libs/libpcre2-10.47 unicode
+

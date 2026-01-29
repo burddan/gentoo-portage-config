@@ -1,0 +1,3 @@
+# Remove files that shall not be installed from this list.
+intel/ibt-20-1-3.sfi
+iwlwifi-cc-a0-77.ucode

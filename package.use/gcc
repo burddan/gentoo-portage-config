@@ -1,0 +1,6 @@
+sys-devel/gcc openmp -lto ssp sanitize cet zstd fortran
+
+
+# required by sys-devel/gcc-15.2.1_p20251122::gentoo
+# required by gcc (argument)
+>=sys-libs/glibc-2.41-r6 cet

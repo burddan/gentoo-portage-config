@@ -1,0 +1,7 @@
+media-libs/harfbuzz truetype cairo 
+
+# required by x11-libs/cairo-1.18.4-r1::gentoo
+# required by media-libs/harfbuzz-12.2.0::gentoo[cairo]
+# required by harfbuzz (argument)
+>=media-libs/freetype-2.14.1-r1 png
+

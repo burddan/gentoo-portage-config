@@ -1,0 +1,70 @@
+# required by sys-apps/portage-3.0.72::gentoo[rsync-verify,-build]
+# required by app-portage/gentoolkit-0.6.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-portage/gemato-20.10-r1 python_targets_python3_13
+# required by app-portage/gemato-20.10-r1::gentoo
+# required by sys-apps/portage-3.0.72::gentoo[rsync-verify,-build]
+# required by app-portage/gentoolkit-0.6.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/gpep517-19 python_targets_python3_13
+# required by app-portage/gemato-20.10-r1::gentoo
+# required by sys-apps/portage-3.0.72::gentoo[rsync-verify,-build]
+# required by app-portage/gentoolkit-0.6.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/flit-core-3.12.0 python_targets_python3_13
+# required by app-alternatives/gpg-1-r2::gentoo[reference]
+# required by sys-apps/portage-3.0.72::gentoo[rsync-verify,-build]
+# required by app-portage/gentoolkit-0.6.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-crypt/gnupg-2.5.14 alternatives
+
+# required by dev-python/gpep517-19::gentoo
+# required by app-portage/gemato-20.10-r1::gentoo
+# required by sys-apps/portage-3.0.72::gentoo[-build,rsync-verify]
+# required by app-portage/gentoolkit-0.6.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=dev-python/installer-0.7.0 python_targets_python3_13
+
+
+# required by dev-lang/python-3.13.5_p1::gentoo[gdbm]
+# required by sys-apps/portage-3.0.72::gentoo[python_targets_python3_13,-build]
+# required by virtual/package-manager-2::gentoo
+# required by @system
+# required by @world (argument)
+>=sys-libs/gdbm-1.26 berkdb
+# required by app-portage/gentoolkit-0.6.8::gentoo
+# required by @selected
+# required by @world (argument)
+>=sys-apps/portage-3.0.72 python_targets_python3_13
+# required by llvm-runtimes/clang-runtime-20.1.8-r1::gentoo[openmp]
+# required by llvm-core/clang-common-20.1.8-r1::gentoo
+# required by llvm-core/clang-20.1.8::gentoo
+# required by llvm-core/clang-toolchain-symlinks-20::gentoo
+>=llvm-runtimes/openmp-20.1.8 abi_x86_32
+# required by llvm-core/clang-common-20.1.8-r1::gentoo
+# required by llvm-runtimes/clang-runtime-20.1.8-r1::gentoo
+# required by llvm-core/clang-20.1.8::gentoo
+# required by llvm-core/clang-toolchain-symlinks-20::gentoo
+>=llvm-runtimes/libcxx-20.1.8 static-libs
+# required by llvm-runtimes/clang-unwindlib-config-20::gentoo
+# required by llvm-runtimes/clang-runtime-20.1.8-r1::gentoo
+# required by llvm-core/clang-common-20.1.8-r1::gentoo
+# required by llvm-core/clang-20.1.8::gentoo
+# required by llvm-core/clang-toolchain-symlinks-20::gentoo
+>=llvm-runtimes/libunwind-20.1.8 static-libs
+# required by llvm-core/clang-common-20.1.8-r1::gentoo
+# required by llvm-core/clang-20.1.8::gentoo
+# required by llvm-core/clang-toolchain-symlinks-20::gentoo
+>=llvm-runtimes/clang-runtime-20.1.8-r1 compiler-rt
+# required by virtual/tmpfiles-0-r5::gentoo[-systemd]
+# required by sys-apps/man-db-2.13.1::gentoo
+# required by virtual/man-0-r4::gentoo
+# required by sys-apps/man-pages-6.10::gentoo
+# required by @system
+# required by @world (argument)
+>=sys-apps/systemd-utils-255.18 tmpfiles
