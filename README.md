@@ -9,13 +9,13 @@ ela é bem mínima, focada em:
 
 ## AVISO
 
-**não use essa configuração. sério.**
+**não copie essa configuração. sério.**
 
-ela foi feita pra minha máquina, meu hardware e minhas escolhas.
 copiar isso sem entender pode:
-- quebrar seu sistema
+- quebrar seu sistema (so tem firmwares para o x230)
 - causar erros estranhos de compilação
 - gerar problemas difíceis de debugar
 - fazer você perder tempo à toa
 
-se algo aqui te inspirar, leia, entenda e tenta replicar. 
+use isso como inspiracão, entenda o uso das coisas e replique no seu sistema :)
+
